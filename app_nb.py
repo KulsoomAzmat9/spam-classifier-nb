@@ -10,7 +10,7 @@ st.title("Project 1: Naive Bayes Spam Classifier")
 @st.cache_data
 def load_data():
     df = pd.read_csv("email_data.csv")
-    df.columns = df.columns.str.str.strip()
+    df.columns = df.columns.str.strip()
     return df
 
 df = load_data()
