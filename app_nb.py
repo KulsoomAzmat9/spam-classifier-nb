@@ -13,7 +13,7 @@ def load_data():
     df.columns = df.columns.str.strip()
     return df
 
-df = load_data()
+df = load_data() #Dataset: SMS Spam Collection Dataset
 st.write(f"Total emails: {len(df)}")
 X_train, X_test, y_train, y_test = train_test_split(df['text'], df['label'], test_size=0.2)
 
