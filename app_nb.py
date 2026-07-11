@@ -14,6 +14,7 @@ def load_data():
     return df
 
 df = load_data()
+st.write(f"Total emails: {len(df)}")
 X_train, X_test, y_train, y_test = train_test_split(df['text'], df['label'], test_size=0.2)
 
 vectorizer = CountVectorizer()
