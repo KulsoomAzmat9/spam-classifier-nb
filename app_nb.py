@@ -13,10 +13,10 @@ st.write("This app automatically loads SPAM.csv and trains a Naive Bayes model")
 
 # 1. LOAD DATA AUTOMATICALLY FROM GITHUB
 try:
-    df = pd.read_csv("SPAM.csv") 
-    st.success("✅ Loaded SPAM.csv successfully!")
+    df = pd.read_csv("email_data.csv") 
+    st.success("✅ Loaded email_data.csv successfully!")
 except FileNotFoundError:
-    st.error("❌ SPAM.csv not found. Please upload SPAM.csv to GitHub in the same folder as app_nb.py")
+    st.error("❌ email_data.csv not found. Please upload email_data.csv to GitHub in the same folder as app_nb.py")
     st.stop()
 
 # 2. SHOW DATA
