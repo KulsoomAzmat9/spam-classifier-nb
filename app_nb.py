@@ -9,7 +9,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 st.title("📧 Spam Email Classifier - Naive Bayes")
-st.write("This app automatically loads SPAM.csv and trains a Naive Bayes model")
+st.write("This app automatically loads email_data.csv and trains a Naive Bayes model")
 
 # 1. LOAD DATA AUTOMATICALLY FROM GITHUB
 try:
