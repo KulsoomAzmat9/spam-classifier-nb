@@ -80,6 +80,6 @@ if st.button("🔍 Predict"):
         if prediction == 1:
             st.error("🚨 This is SPAM!")
         else:
-            st.success("✅ This is NOT Spam - It's Ham")
+            st.success("✅ This is NOT Spam")
     else:
         st.warning("Please enter some text first")
