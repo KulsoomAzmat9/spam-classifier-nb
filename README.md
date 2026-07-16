@@ -3,7 +3,7 @@
 This is a Spam Email Classifier built using *Naive Bayes Algorithm*.
 
 ## Accuracy
-*95.24%*
+*100.00%*
 
 ## Features
 - Clean and preprocess email data
