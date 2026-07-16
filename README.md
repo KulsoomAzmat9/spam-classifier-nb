@@ -19,7 +19,7 @@ This project detects spam emails using text classification. The model is trained
 
 ## 4. Comparison of Algorithms
 
-For this Spam Classifier project, we compared 3 algorithms on the email dataset:
+For this Spam Classifier project, I compared 3 algorithms on the email dataset:
 
 ### Naive Bayes* - Final Model Used
 - *Type*: Probabilistic classifier based on Bayes' Theorem
