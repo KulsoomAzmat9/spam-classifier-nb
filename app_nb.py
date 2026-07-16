@@ -23,10 +23,10 @@ df.columns = df.columns.str.strip().str.lower()
 
 st.subheader("1. Dataset Information")
 
-st.write("*Columns in your file:*")
-st.code(list(df.columns)) # This will clearly show the columns
+st.write("Columns in file:")
+st.code(list(df.columns)) # This will show the columns
 
-st.write("*Data Preview - First 5 Rows:*")
+st.write("Data Preview - First 5 Rows:")
 st.dataframe(df.head())
 
 # 3. CLEAN & TRAIN
@@ -68,8 +68,8 @@ ax.set_ylabel('Actual')
 st.pyplot(fig)
 
 # 5. PREDICTION SECTION
-st.subheader("4. Test Your Own Email")
-user_input = st.text_area("✍️ Type or paste an email here:")
+st.subheader("4. Test  Email")
+user_input = st.text_area("✍️ Type an email here:")
 
 if st.button("🔍 Predict"):
     if user_input:
