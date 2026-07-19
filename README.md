@@ -1,5 +1,4 @@
 # Email Spam Classifier using Naive Bayes
-
 A machine learning web application that classifies emails as Spam or Not Spam using the Naive Bayes algorithm. Built with Python, Scikit-learn.
 
 ## 1. Project Description
