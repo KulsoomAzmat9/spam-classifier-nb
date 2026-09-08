@@ -16,7 +16,7 @@ This project detects spam emails using text classification. The model is trained
   Technologies Used
 
 - *Language*: Python 
-- *Libraries*: Scikit-learn, Pandas, NumPy, Joblib
+- *Libraries*: Scikit-learn, Pandas, Numpy, Joblib
 - *Vectorizer*: TfidfVectorizer
 
   Comparison of Algorithms
